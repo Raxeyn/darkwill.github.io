@@ -1,0 +1,124 @@
+{
+  "docs": {
+    "Getting Started": [
+      "index",
+      "knowledgebase/getting-started/architecture",
+      "knowledgebase/getting-started/index",
+      "knowledgebase/getting-started/windows-users",
+      "knowledgebase/getting-started/glossary"
+    ],
+    "Substrate Key Concepts": [
+      "knowledgebase/runtime/index",
+      "knowledgebase/learn-substrate/extrinsics",
+      "knowledgebase/learn-substrate/account-abstractions",
+      "knowledgebase/learn-substrate/tx-pool",
+      "knowledgebase/learn-substrate/session-keys",
+      "knowledgebase/learn-substrate/weight",
+      "knowledgebase/learn-substrate/off-chain-features"
+    ],
+    "Runtime Development": [
+      "knowledgebase/runtime/pallets",
+      "knowledgebase/runtime/frame",
+      "knowledgebase/runtime/macros",
+      "knowledgebase/runtime/metadata",
+      "knowledgebase/runtime/storage",
+      "knowledgebase/runtime/origin",
+      "knowledgebase/runtime/execution",
+      "knowledgebase/runtime/events",
+      "knowledgebase/runtime/errors",
+      "knowledgebase/runtime/fees",
+      "knowledgebase/runtime/benchmarking",
+      "knowledgebase/runtime/debugging",
+      "knowledgebase/runtime/tests",
+      "knowledgebase/runtime/randomness",
+      "knowledgebase/runtime/upgrades"
+    ],
+    "Smart Contracts": [
+      "knowledgebase/smart-contracts/index",
+      "knowledgebase/smart-contracts/contracts-pallet",
+      "knowledgebase/smart-contracts/evm-pallet",
+      "knowledgebase/smart-contracts/faq"
+    ],
+    "Integrate": [
+      "knowledgebase/integrate/polkadot-js",
+      "knowledgebase/integrate/libraries",
+      "knowledgebase/integrate/chain-spec",
+      "knowledgebase/integrate/subkey",
+      "knowledgebase/integrate/memory-profiling",
+      "knowledgebase/integrate/try-runtime"
+    ],
+    "Advanced": [
+      "knowledgebase/advanced/account-info",
+      "knowledgebase/advanced/codec",
+      "knowledgebase/advanced/consensus",
+      "knowledgebase/advanced/block-import",
+      "knowledgebase/advanced/executor",
+      "knowledgebase/advanced/cryptography",
+      "knowledgebase/advanced/storage",
+      "knowledgebase/advanced/ss58-address-format",
+      "knowledgebase/advanced/no-hash-collections"
+    ],
+    "Contribute": ["contribute/help-translate"]
+  },
+  "create-your-first-substrate-chain": {
+    "Create Your First Substrate Chain": [
+      "tutorials/create-your-first-substrate-chain/index",
+      "tutorials/create-your-first-substrate-chain/setup",
+      "tutorials/create-your-first-substrate-chain/background",
+      "tutorials/create-your-first-substrate-chain/interact"
+    ]
+  },
+  "add-a-pallet": {
+    "Add a Pallet to Your Runtime": [
+      "tutorials/add-a-pallet/index",
+      "tutorials/add-a-pallet/import-a-pallet",
+      "tutorials/add-a-pallet/configure-a-pallet",
+      "tutorials/add-a-pallet/interact-with-a-pallet",
+      "tutorials/add-a-pallet/publish-a-pallet"
+    ]
+  },
+  "forkless-upgrade": {
+    "Forkless Upgrade a Chain": [
+      "tutorials/forkless-upgrade/index",
+      "tutorials/forkless-upgrade/sudo-upgrade",
+      "tutorials/forkless-upgrade/scheduled-upgrade"
+    ]
+  },
+  "build-a-dapp": {
+    "Build a PoE Decentralized Application": [
+      "tutorials/build-a-dapp/index",
+      "tutorials/build-a-dapp/prepare",
+      "tutorials/build-a-dapp/pallet",
+      "tutorials/build-a-dapp/front-end"
+    ]
+  },
+  "start-a-private-network": {
+    "Start a Private Network": [
+      "tutorials/start-a-private-network/index",
+      "tutorials/start-a-private-network/alicebob",
+      "tutorials/start-a-private-network/keygen",
+      "tutorials/start-a-private-network/customspec",
+      "tutorials/start-a-private-network/customchain"
+    ]
+  },
+  "frontier": {
+    "Integrate Ethereum Compatibility into Substrate": [
+      "tutorials/frontier/index",
+      "tutorials/frontier/frontier-architecture",
+      "tutorials/frontier/ethereum-contracts"
+    ]
+  },
+  "add-contracts-pallet": {
+    "Add the Contracts Pallet": []
+  },
+  "visualize-node-metrics": {
+    "Visualize Node Metrics": []
+  },
+  "build-permission-network": {
+    "Build a permissioned network": [
+      "tutorials/build-permission-network/index",
+      "tutorials/build-permission-network/add-node-authorization-pallet",
+      "tutorials/build-permission-network/launch-network"
+    ]
+  }
+}
